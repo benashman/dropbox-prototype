@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="Adj-5U-R7K" kind="modal" id="R7M-ev-WeV"/>
+                                    <segue destination="Adj-5U-R7K" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="R7M-ev-WeV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,7 +52,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="zIL-GK-E2t" kind="modal" id="KOF-M3-QtD"/>
+                                    <segue destination="zIL-GK-E2t" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="KOF-M3-QtD"/>
                                 </connections>
                             </button>
                         </subviews>
