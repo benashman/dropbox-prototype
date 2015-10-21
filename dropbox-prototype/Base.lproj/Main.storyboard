@@ -129,7 +129,7 @@
         <!--Welcome-->
         <scene sceneID="dRo-CR-n5g">
             <objects>
-                <viewController id="cik-YU-EAD" sceneMemberID="viewController">
+                <viewController id="cik-YU-EAD" customClass="CreateAccountRootViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Zc-nh-0R3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,7 +152,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="M5v-QE-i69" kind="push" id="HGi-bX-t2E"/>
+                                    <segue destination="M5v-QE-i69" kind="push" identifier="createAccountSegue" id="HGi-bX-t2E"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -207,10 +207,10 @@
             </objects>
             <point key="canvasLocation" x="1410" y="927"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome-->
         <scene sceneID="GiG-pr-fPl">
             <objects>
-                <viewController id="2m1-oZ-irZ" sceneMemberID="viewController">
+                <viewController id="2m1-oZ-irZ" customClass="SignInRootViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VIb-wI-tEG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,7 +225,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="Tsa-IH-Net" kind="push" id="asH-2y-ytG"/>
+                                    <segue destination="Tsa-IH-Net" kind="push" identifier="signInSegue" id="asH-2y-ytG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Gnb-YL-9kg" userLabel="create_account_button">
@@ -240,13 +240,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aFE-Vb-ZBi"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="aFE-Vb-ZBi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0Y-pA-qzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1822" y="927"/>
         </scene>
-        <!--New Account-->
+        <!--Dropbox-->
         <scene sceneID="XIk-UG-2gD">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kX-3E-Qno" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -264,12 +264,12 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="New Account" id="snE-Cc-fUt">
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Create" id="TxO-Uu-cSb"/>
+                    <navigationItem key="navigationItem" title="Dropbox" id="snE-Cc-fUt" userLabel="I">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Sign In" id="TxO-Uu-cSb"/>
                     </navigationItem>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="2264" y="921"/>
+            <point key="canvasLocation" x="2264" y="927"/>
         </scene>
     </scenes>
     <resources>
@@ -281,7 +281,7 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="07X-B4-adN"/>
+        <segue reference="asH-2y-ytG"/>
         <segue reference="HGi-bX-t2E"/>
     </inferredMetricsTieBreakers>
 </document>
