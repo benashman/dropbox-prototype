@@ -112,7 +112,8 @@
         <!--Navigation Controller-->
         <scene sceneID="1GI-oU-8ke">
             <objects>
-                <navigationController id="MI2-Dv-Eh2" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="MI2-Dv-Eh2" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="W7S-81-5Kp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -319,7 +320,8 @@
         <!--Navigation Controller-->
         <scene sceneID="0iB-ep-fPh">
             <objects>
-                <navigationController id="9kS-xb-xh9" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="9kS-xb-xh9" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="LZ0-aC-FVH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -367,6 +369,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome" id="aFE-Vb-ZBi"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B0Y-pA-qzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,7 +414,7 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="asH-2y-ytG"/>
+        <segue reference="07X-B4-adN"/>
         <segue reference="HGi-bX-t2E"/>
     </inferredMetricsTieBreakers>
 </document>
