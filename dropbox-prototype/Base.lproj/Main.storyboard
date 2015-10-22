@@ -169,7 +169,7 @@
         <!--New Account-->
         <scene sceneID="HrA-kM-lii">
             <objects>
-                <viewController id="M5v-QE-i69" sceneMemberID="viewController">
+                <viewController id="M5v-QE-i69" customClass="CreateAccountStepOneViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T5c-rW-cPb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,10 +199,10 @@
             </objects>
             <point key="canvasLocation" x="2264" y="207"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Step Two View Controller-->
         <scene sceneID="yTn-9l-u8Y">
             <objects>
-                <viewController id="TpF-a2-0Zj" sceneMemberID="viewController">
+                <viewController id="TpF-a2-0Zj" customClass="CreateAccountStepTwoViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d4Z-0Q-HqT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -230,10 +230,10 @@
             </objects>
             <point key="canvasLocation" x="2679" y="207"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Step Three View Controller-->
         <scene sceneID="921-GO-8Va">
             <objects>
-                <viewController id="G9Y-y0-fmP" sceneMemberID="viewController">
+                <viewController id="G9Y-y0-fmP" customClass="CreateAccountStepThreeViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Why-e1-BGE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -260,10 +260,10 @@
             </objects>
             <point key="canvasLocation" x="3085" y="207"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Step Four View Controller-->
         <scene sceneID="NpT-Q0-0mg">
             <objects>
-                <viewController id="AHb-bB-M5F" sceneMemberID="viewController">
+                <viewController id="AHb-bB-M5F" customClass="CreateAccountStepFourViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DNL-XO-tab">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,10 +290,10 @@
             </objects>
             <point key="canvasLocation" x="3495" y="207"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Account Step Five View Controller-->
         <scene sceneID="j7V-UQ-stC">
             <objects>
-                <viewController id="Tp3-Jz-OPo" sceneMemberID="viewController">
+                <viewController id="Tp3-Jz-OPo" customClass="CreateAccountStepFiveViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iFu-9m-d5A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
