@@ -375,7 +375,6 @@
         <!--Dropbox-->
         <scene sceneID="XIk-UG-2gD">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0kX-3E-Qno" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Tsa-IH-Net" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aUG-9h-Hsp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -394,6 +393,7 @@
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="Sign In" id="TxO-Uu-cSb"/>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0kX-3E-Qno" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2264" y="927"/>
         </scene>
