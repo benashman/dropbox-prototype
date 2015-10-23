@@ -188,9 +188,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j8v-Xs-ael" userLabel="back_button">
-                                <rect key="frame" x="0.0" y="0.0" width="106" height="61"/>
+                                <rect key="frame" x="0.0" y="1" width="106" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="M5v-QE-i69" eventType="touchUpInside" id="oyN-qk-o5E"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -229,6 +232,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="112" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="TpF-a2-0Zj" eventType="touchUpInside" id="sYT-R3-dYZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -265,6 +271,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="109" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="G9Y-y0-fmP" eventType="touchUpInside" id="ETM-Cb-Yo5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -300,6 +309,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="114" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="AHb-bB-M5F" eventType="touchUpInside" id="w3f-B6-3Ba"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -338,6 +350,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="109" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="Tp3-Jz-OPo" eventType="touchUpInside" id="Pfi-EV-Ygh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
