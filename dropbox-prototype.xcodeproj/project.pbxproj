@@ -10,6 +10,7 @@
 		CA5128AA1BD733B7005AED56 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5128A91BD733B7005AED56 /* CreateAccountRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA5128AC1BD733EB005AED56 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5128AB1BD733EB005AED56 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA7EE9E41BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7EE9E31BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CA7EE9E61BD9CC0C0088CDD9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA8436351BD88457003636D7 /* CreateAccountStepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8436341BD88457003636D7 /* CreateAccountStepOneViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA8436371BD8846A003636D7 /* CreateAccountStepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8436361BD8846A003636D7 /* CreateAccountStepTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA8436391BD8847A003636D7 /* CreateAccountStepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8436381BD8847A003636D7 /* CreateAccountStepThreeViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -26,6 +27,7 @@
 		CA5128A91BD733B7005AED56 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		CA5128AB1BD733EB005AED56 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		CA7EE9E31BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewTermsViewController.swift; sourceTree = "<group>"; };
+		CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CA8436341BD88457003636D7 /* CreateAccountStepOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepOneViewController.swift; sourceTree = "<group>"; };
 		CA8436361BD8846A003636D7 /* CreateAccountStepTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepTwoViewController.swift; sourceTree = "<group>"; };
 		CA8436381BD8847A003636D7 /* CreateAccountStepThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepThreeViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				CA5128AB1BD733EB005AED56 /* SignInRootViewController.swift */,
 				CAA03C0D1BD71FC300EB7990 /* ViewController.swift */,
 				CAA03C0F1BD71FC400EB7990 /* Main.storyboard */,
+				CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */,
 				CAA03C121BD71FC400EB7990 /* Assets.xcassets */,
 				CAA03C141BD71FC400EB7990 /* LaunchScreen.storyboard */,
 				CAA03C171BD71FC400EB7990 /* Info.plist */,
@@ -161,6 +164,7 @@
 			files = (
 				CA5128AC1BD733EB005AED56 /* SignInRootViewController.swift in Sources */,
 				CA8436391BD8847A003636D7 /* CreateAccountStepThreeViewController.swift in Sources */,
+				CA7EE9E61BD9CC0C0088CDD9 /* SettingsViewController.swift in Sources */,
 				CA8436371BD8846A003636D7 /* CreateAccountStepTwoViewController.swift in Sources */,
 				CA5128AA1BD733B7005AED56 /* CreateAccountRootViewController.swift in Sources */,
 				CA84363B1BD88488003636D7 /* CreateAccountStepFourViewController.swift in Sources */,
