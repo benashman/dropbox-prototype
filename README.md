@@ -1,5 +1,7 @@
 # Dropbox Prototype
 
+Time spent: ~4 hours
+
 ## Requirements
 
 * [x] User can tap through the 3 welcome screens.
@@ -8,9 +10,9 @@
   * [x] Before creating the account, user can choose to read the terms of service.
   * [x] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
   * [x] User can log out from the Settings screen.
-* [ ] User can follow the sign in flow.
-  * [ ] User can tap the area for "Having trouble signing in?"
-  * [ ] User can log out from the Settings screen.
+* [x] User can follow the sign in flow.
+  * [x] User can tap the area for "Having trouble signing in?"
+  * [x] User can log out from the Settings screen.
 
 ## Optional
 
