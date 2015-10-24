@@ -550,6 +550,15 @@
                                 </subviews>
                                 <animations/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uvX-3x-veb" userLabel="sign_out_button">
+                                <rect key="frame" x="0.0" y="400" width="320" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="didTapSignOutButton:" destination="MC8-ic-6uW" eventType="touchUpInside" id="ibe-cF-fxj"/>
+                                    <segue destination="9kS-xb-xh9" kind="modal" animates="NO" modalTransitionStyle="crossDissolve" id="VFe-Db-Jl5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -582,10 +591,10 @@
             </objects>
             <point key="canvasLocation" x="1410" y="927"/>
         </scene>
-        <!--Welcome-->
+        <!--Sign In-->
         <scene sceneID="GiG-pr-fPl">
             <objects>
-                <viewController id="2m1-oZ-irZ" customClass="SignInRootViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2m1-oZ-irZ" userLabel="Sign In" customClass="SignInRootViewController" customModule="dropbox_prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VIb-wI-tEG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -751,7 +760,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="07X-B4-adN"/>
-        <segue reference="HGi-bX-t2E"/>
+        <segue reference="WHM-NV-MRZ"/>
+        <segue reference="VFe-Db-Jl5"/>
+        <segue reference="asH-2y-ytG"/>
     </inferredMetricsTieBreakers>
 </document>

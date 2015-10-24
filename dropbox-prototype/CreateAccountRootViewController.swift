@@ -10,9 +10,10 @@ import UIKit
 
 class CreateAccountRootViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         performSegueWithIdentifier("createAccountSegue", sender: self)
     }
 
