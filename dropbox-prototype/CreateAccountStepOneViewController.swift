@@ -10,10 +10,13 @@ import UIKit
 
 class CreateAccountStepOneViewController: UIViewController {
     
+    
+    @IBOutlet weak var firstNameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        firstNameTextField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
