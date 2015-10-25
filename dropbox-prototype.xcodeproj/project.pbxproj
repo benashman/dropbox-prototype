@@ -16,6 +16,7 @@
 		CA8436391BD8847A003636D7 /* CreateAccountStepThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8436381BD8847A003636D7 /* CreateAccountStepThreeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA84363B1BD88488003636D7 /* CreateAccountStepFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84363A1BD88488003636D7 /* CreateAccountStepFourViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA84363D1BD88498003636D7 /* CreateAccountStepFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84363C1BD88498003636D7 /* CreateAccountStepFiveViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CA862CFA1BDD90570028B51A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA862CF91BDD90570028B51A /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA96E4661BDD7135005D240D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96E4651BDD7135005D240D /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CAA03C0C1BD71FC300EB7990 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA03C0B1BD71FC300EB7990 /* AppDelegate.swift */; };
 		CAA03C0E1BD71FC300EB7990 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA03C0D1BD71FC300EB7990 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		CA8436381BD8847A003636D7 /* CreateAccountStepThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepThreeViewController.swift; sourceTree = "<group>"; };
 		CA84363A1BD88488003636D7 /* CreateAccountStepFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepFourViewController.swift; sourceTree = "<group>"; };
 		CA84363C1BD88498003636D7 /* CreateAccountStepFiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepFiveViewController.swift; sourceTree = "<group>"; };
+		CA862CF91BDD90570028B51A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		CA96E4651BDD7135005D240D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		CAA03C081BD71FC300EB7990 /* dropbox-prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dropbox-prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA03C0B1BD71FC300EB7990 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				CAD8A7121BDB1E3600581E44 /* SignedInPhotosViewController.swift */,
 				CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */,
 				CAA03C0F1BD71FC400EB7990 /* Main.storyboard */,
+				CA862CF91BDD90570028B51A /* SignInViewController.swift */,
 				CAA03C121BD71FC400EB7990 /* Assets.xcassets */,
 				CAA03C141BD71FC400EB7990 /* LaunchScreen.storyboard */,
 				CAA03C171BD71FC400EB7990 /* Info.plist */,
@@ -187,6 +190,7 @@
 				CAD8A7151BDB1F8300581E44 /* SignedInSettingsViewController.swift in Sources */,
 				CA84363B1BD88488003636D7 /* CreateAccountStepFourViewController.swift in Sources */,
 				CAD8A7131BDB1E3600581E44 /* SignedInPhotosViewController.swift in Sources */,
+				CA862CFA1BDD90570028B51A /* SignInViewController.swift in Sources */,
 				CA84363D1BD88498003636D7 /* CreateAccountStepFiveViewController.swift in Sources */,
 				CAA03C0E1BD71FC300EB7990 /* ViewController.swift in Sources */,
 				CAA03C0C1BD71FC300EB7990 /* AppDelegate.swift in Sources */,
