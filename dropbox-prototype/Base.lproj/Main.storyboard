@@ -676,6 +676,9 @@
                     <navigationItem key="navigationItem" title="Dropbox" id="snE-Cc-fUt" userLabel="I">
                         <barButtonItem key="rightBarButtonItem" enabled="NO" title="Sign In" id="TxO-Uu-cSb"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="emailAddressTextField" destination="ed1-4i-Ih3" id="vPu-ps-9Gz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kX-3E-Qno" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

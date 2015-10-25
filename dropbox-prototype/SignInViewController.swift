@@ -10,10 +10,12 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var emailAddressTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        emailAddressTextField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
