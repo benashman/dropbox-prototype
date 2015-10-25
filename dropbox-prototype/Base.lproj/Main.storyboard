@@ -173,6 +173,9 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="onPasswordChange:" destination="M5v-QE-i69" eventType="editingChanged" id="5Lr-W6-Odh"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <animations/>
@@ -183,6 +186,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="firstNameTextField" destination="Esx-ag-1K7" id="m64-tP-t9l"/>
+                        <outlet property="imageView" destination="XGZ-LN-t6T" id="Pab-a5-XAx"/>
+                        <outlet property="passwordTextField" destination="ygC-q5-93O" id="VOW-XC-7ml"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qT-si-4Q8" userLabel="First Responder" sceneMemberID="firstResponder"/>
