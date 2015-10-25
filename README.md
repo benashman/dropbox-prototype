@@ -1,6 +1,6 @@
 # Dropbox Prototype
 
-Time spent: ~4 hours
+Time spent: ~5 hours
 
 ## Requirements
 
@@ -17,8 +17,5 @@ Time spent: ~4 hours
 ## Optional
 
 * [ ] Add a detail view for one of the files and implement favoriting the file. Configure a Button
-* [ ] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard. Dismissing the Keyboard
-* [ ] You should be able to swipe through the welcome screens instead of just tapping them.
-  * [ ] Create a custom free form view controller that is wide enough for 4 screens. Creating Custom View Controllers, Creating a Free Form View Controller
-  * [ ] Add a UIScrollView with paging enabled.
-  * [ ] Add 4 UIImageViews for the welcome screens.
+* [ ] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+* [x] You should be able to swipe through the welcome screens instead of just tapping them.
