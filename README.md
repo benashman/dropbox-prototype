@@ -19,3 +19,7 @@ Time spent: ~9 hours
 * [x] Add a detail view for one of the files and implement favoriting the file.
 * [x] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 * [x] You should be able to swipe through the welcome screens instead of just tapping them.
+
+## Walkthrough
+
+![Walkthrough](demo.gif)
