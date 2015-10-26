@@ -12,7 +12,7 @@
 		CA5128AC1BD733EB005AED56 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5128AB1BD733EB005AED56 /* SignInRootViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA7EE9E41BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7EE9E31BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA7EE9E61BD9CC0C0088CDD9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		CA8436351BD88457003636D7 /* CreateAccountStepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8436341BD88457003636D7 /* CreateAccountStepOneViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		CA8436351BD88457003636D7 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8436341BD88457003636D7 /* CreateAccountViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA862CFA1BDD90570028B51A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA862CF91BDD90570028B51A /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA862CFC1BDD9DC00028B51A /* SignedInFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA862CFB1BDD9DC00028B51A /* SignedInFilesViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		CA96E4661BDD7135005D240D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96E4651BDD7135005D240D /* WelcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -31,7 +31,7 @@
 		CA5128AB1BD733EB005AED56 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		CA7EE9E31BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewTermsViewController.swift; sourceTree = "<group>"; };
 		CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		CA8436341BD88457003636D7 /* CreateAccountStepOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountStepOneViewController.swift; sourceTree = "<group>"; };
+		CA8436341BD88457003636D7 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		CA862CF91BDD90570028B51A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		CA862CFB1BDD9DC00028B51A /* SignedInFilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedInFilesViewController.swift; sourceTree = "<group>"; };
 		CA96E4651BDD7135005D240D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -57,16 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CA96E4671BDD7147005D240D /* Create Account */ = {
-			isa = PBXGroup;
-			children = (
-				CA5128A91BD733B7005AED56 /* CreateAccountRootViewController.swift */,
-				CA8436341BD88457003636D7 /* CreateAccountStepOneViewController.swift */,
-				CA7EE9E31BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift */,
-			);
-			name = "Create Account";
-			sourceTree = "<group>";
-		};
 		CAA03BFF1BD71FC300EB7990 = {
 			isa = PBXGroup;
 			children = (
@@ -87,17 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				CAA03C0B1BD71FC300EB7990 /* AppDelegate.swift */,
-				CA96E4651BDD7135005D240D /* WelcomeViewController.swift */,
-				CA96E4671BDD7147005D240D /* Create Account */,
 				CAA03C0D1BD71FC300EB7990 /* ViewController.swift */,
+				CA96E4651BDD7135005D240D /* WelcomeViewController.swift */,
+				CA5128A91BD733B7005AED56 /* CreateAccountRootViewController.swift */,
+				CA8436341BD88457003636D7 /* CreateAccountViewController.swift */,
+				CA7EE9E31BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift */,
 				CA862CF91BDD90570028B51A /* SignInViewController.swift */,
 				CA5128AB1BD733EB005AED56 /* SignInRootViewController.swift */,
 				CAD8A7141BDB1F8300581E44 /* SignedInSettingsViewController.swift */,
 				CA862CFB1BDD9DC00028B51A /* SignedInFilesViewController.swift */,
+				CA3F95191BDDA37A00E5C732 /* SignedInFileDetailViewController.swift */,
 				CAD8A7121BDB1E3600581E44 /* SignedInPhotosViewController.swift */,
 				CA7EE9E51BD9CC0C0088CDD9 /* SettingsViewController.swift */,
 				CAA03C0F1BD71FC400EB7990 /* Main.storyboard */,
-				CA3F95191BDDA37A00E5C732 /* SignedInFileDetailViewController.swift */,
 				CAA03C121BD71FC400EB7990 /* Assets.xcassets */,
 				CAA03C141BD71FC400EB7990 /* LaunchScreen.storyboard */,
 				CAA03C171BD71FC400EB7990 /* Info.plist */,
@@ -185,7 +177,7 @@
 				CA862CFA1BDD90570028B51A /* SignInViewController.swift in Sources */,
 				CAA03C0E1BD71FC300EB7990 /* ViewController.swift in Sources */,
 				CAA03C0C1BD71FC300EB7990 /* AppDelegate.swift in Sources */,
-				CA8436351BD88457003636D7 /* CreateAccountStepOneViewController.swift in Sources */,
+				CA8436351BD88457003636D7 /* CreateAccountViewController.swift in Sources */,
 				CA862CFC1BDD9DC00028B51A /* SignedInFilesViewController.swift in Sources */,
 				CA7EE9E41BD9C6460088CDD9 /* CreateAccountViewTermsViewController.swift in Sources */,
 				CA96E4661BDD7135005D240D /* WelcomeViewController.swift in Sources */,

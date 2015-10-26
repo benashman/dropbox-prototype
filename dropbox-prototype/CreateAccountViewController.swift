@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateAccountStepOneViewController: UIViewController {
+class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
